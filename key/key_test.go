@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"testing"
 
-	kbucket "github.com/libp2p/go-libp2p-kbucket"
-	ks "github.com/libp2p/go-libp2p-kbucket/keyspace"
+	kbucket "github.com/mikelsr/go-libp2p-kbucket"
+	ks "github.com/mikelsr/go-libp2p-kbucket/keyspace"
 )
 
 func TestKbucketConversion(t *testing.T) {
